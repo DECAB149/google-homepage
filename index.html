@@ -12,12 +12,10 @@
             text-align:center
         }
         img {
-            margin-top: 190px;
+            margin-top: 155px;
+            margin-bottom: 18px;
         }
-        form{
-            margin-top: 25px;
-            border-radius: 10px;
-        }
+        
         .sbox {
             overflow: hidden;
         }
@@ -27,9 +25,42 @@
             text-align: center;
             padding: 14px 16px;
         }
-        
+        input[type=text]{
+            width: 45%;
+            border: 1px solid #aaa;
+            border-radius: 40px;
+            font-size: 18px;
+            margin: 10px;
+            padding: 15px;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+            padding 0;
+            font-family: Arial, Helvetica, sans-serif
+            overflow: hidden;
 
-    
+        
+        }
+        li{
+            display:block;
+            
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        li a{
+            color: black;
+            display: block;
+            text-align center;
+            padding: 14px 5px
+        
+        }
+       
         
     </style>
 
@@ -42,9 +73,15 @@
 
     <div class="sbox, sboxa">
     <form action="/search here" >
-        <input type="text" placeholder="search" field without outline>
+        <input type="text" placeholder="Search Google or Type a URL">
     </form>
     </div>
+
+    <ul style="position:relative; left:0px; top:-380px;">
+        <li><a style="float:right" href="news.asp">Images</a></li>
+        <li><a style="float:right" href="default.asp">Gmail</a></li>
+
+    </ul>
     
 </main>
 
